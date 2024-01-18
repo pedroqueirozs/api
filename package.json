@@ -4,7 +4,8 @@
   "description": "Api desenvolvida no Explorer ",
   "main": "index.js",
   "scripts": {
-    "start": "server.js"
+    "start": "server.js",
+    "migrate": "knex migrate:latest"
   },
   "keywords": [],
   "author": "Pedro Douglas Queiroz",
